@@ -1,0 +1,19 @@
+.range{
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+
+        .input{
+            display: flex;
+            align-items: center;
+            color: #B0AAD0;
+            font-weight: 600;
+        }
+        .input::after{
+            content: 'тг';
+            display: block;
+            width: 10px;
+            height: 10px;
+        }
+    }
+}

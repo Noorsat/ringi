@@ -1,0 +1,12 @@
+.auth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+    &__buttons-header{
+        display: flex;
+        gap: 32px;
+    }
+}

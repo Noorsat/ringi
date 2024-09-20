@@ -1,0 +1,24 @@
+.responces__items{
+    border-bottom: 1px solid #B0AAD0;
+    margin-bottom: 30px;
+}
+.responces__items:last-child{
+    border-bottom: none;
+}
+.responces__item{
+    margin-bottom: 30px;
+
+    &-title{
+        font-size: 18px;
+        font-weight: 600;
+        color: #222;
+        margin-bottom: 18px;
+    }
+
+    &-text{
+        font-size: 16px;
+        font-weight: 600;
+        color: #B0AAD0;
+        margin-left: 20px;
+    }
+}

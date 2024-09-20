@@ -1,0 +1,18 @@
+button{
+    background: #04C35C;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 100px;
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+button:disabled{
+    opacity: 0.5;
+}
